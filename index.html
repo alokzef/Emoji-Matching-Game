@@ -7,23 +7,20 @@
     <title>Memory Matching Game</title>
     <link rel="shortcut icon" type="image/png" href="Images/favicon.png"/>
     <link rel="stylesheet" href="gameStyle.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>
-    <script src="gameScript.js"> </script>
 </head>
 <body>
-    <div id="ol"> </div>
-    <div style="height: 8px;"></div>
-    <div id="title">
-    <span id="logo">MEMORY MATCHING GAME</span>
-    </div>
+    <div id="ol"></div>
 
-    <div id="title" style="height: 40px;">
+    <header id="game-header">
         <span id="moves"></span>
+        <h1 id="logo">MEMORY MATCHING GAME</h1>
         <span id="time"></span>
-    </div>
+    </header>
 
-    <center>
-        <table cellspacing="0"></table>
-    </center>
+    <main>
+        <table></table>
+    </main>
+
+    <script src="gameScript.js"></script>
 </body>
 </html>
