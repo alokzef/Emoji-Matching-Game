@@ -10,7 +10,7 @@
         const timeSpan = document.getElementById('time');
 
         // --- Constants ---
-        // New set of animal emojis for the game
+        // Set of emojis for the game
         const EMOJIS = ['🐶', '🐱', '🐭', '🐹', '🐰', '🦊', '🐻', '🐼', '🐨', '🐯', '🦁', '🐮', '🐷', '🐸', '🐵', '🐔', '🐧', '🐦', '🐤', '🦆', '🦅', '🦉', '🦇', '🐺', '🐗', '🐴', '🦄', '🐝', '🐛', '🦋', '🐌', '🐞', '🐜', '🦗'];
         const FLIP_ANIMATION_DURATION = 1000; // ms
 
@@ -201,11 +201,12 @@
             const content = `
                 <div id="inst">
                     <h3>Welcome!</h3>
-                    Instructions For Game<br/><br/>
+                    How to Play<br/><br/>
                     <ul>
-                        <li>Make pairs of similar blocks by flipping them.</li>
-                        <li>To flip a block you can click on it.</li>
-                        <li>If two blocks you clicked are not similar, they will be flipped back.</li>
+                        <li>The goal is to find all matching pairs of emojis.</li>
+                        <li>Click on a card to flip it over and reveal the emoji.</li>
+                        <li>If the next card you flip has the same emoji, the pair will stay face-up.</li>
+                        <li>If they don't match, they will be flipped back over.</li>
                     </ul>
                     <p style="font-size:18px;">Click one of the following modes to start the game.</p>
                 </div>
